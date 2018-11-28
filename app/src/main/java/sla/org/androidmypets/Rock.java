@@ -1,5 +1,7 @@
 package sla.org.androidmypets;
 
+// Written by Paxton.
+
 class Rock extends Pet {
 
     // Constructors
