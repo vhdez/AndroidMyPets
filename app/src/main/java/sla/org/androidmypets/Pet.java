@@ -1,6 +1,6 @@
 package sla.org.androidmypets;
 
-class Pet implements Displayable {
+class Pet implements Model {
     // Fields
     String petType;
     private int age;

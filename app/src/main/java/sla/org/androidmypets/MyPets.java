@@ -1,14 +1,14 @@
 package sla.org.androidmypets;
 
 class MyPets {
-    private Displayable[] pets;
+    private Model[] pets;
     private int current;
 
     MyPets() {
         current = 0;
 
         // There are 12 pets.
-        pets = new Displayable[12];
+        pets = new Model[12];
 
         pets[0] = new Dog(3, "Bowser", false, "Mr. Hernandez");
         pets[1] = new Dog(14, "Tully", true, "Mr. Hernandez");
@@ -32,7 +32,7 @@ class MyPets {
         return current;
     }
 
-    Displayable current() {
+    Model current() {
         return pets[current];
     }
 

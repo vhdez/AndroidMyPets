@@ -1,6 +1,6 @@
 package sla.org.androidmypets;
 
-public interface Displayable {
+public interface Model {
 
     String hiMessage();
     String description();
